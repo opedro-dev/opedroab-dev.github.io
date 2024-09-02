@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contato</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="icon" type="image/jpg" href="img/favicon.png"> <!-- Logo Feita no CANVAS -->
+	<script type="text/javascript" src="JS/contato.js"></script> 
+</head>
+	
+<body>
+	<nav class="main-nav"> <img src="img/P.png" alt="O.Pedro" class="logo">
+  </nav>
+	
+		<div class="textocontato">
+			
+				<h1 class="boxshadow">Contato</h1>
+        <!--Campo Input do type text-->
+        <label for="campo_nome" >Nome:</label>
+      <input id="campo_nome" class="inputTexto" type="text" placeholder="Digite seu nome aqui" style="background-color: rgb(174, 222, 253);" required>
+			<br>
+
+        <!--Campo input do type email-->
+        <label for="campo_email">Email:</label>
+      <input id="campo_email" class="inputTexto" type="email" placeholder="Digite seu email aqui" style="background-color: rgb(174, 222, 253);" required>
+        <br>
+
+        <h2>Digite sua mensagem:</h2>
+
+        <!--textarea= abre a caixa de texto-->
+        <textarea style="background-color: rgb(174, 222, 253)" class="inputMensagem" id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem" rows="50"  ></textarea>
+			
+        <br>
+		
+        <!--Campo input do type submit-->
+		<button onClick="validarCampos()">Enviar Mensagem</button>
+		</div>
+
+
+    </form>
+	
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer-inner">
+    <p class="creditos"> &copy; Pedro Oliveira
+
+    </p>
+  </div>
+</footer>
+	
+</body>
+	
+</html>
